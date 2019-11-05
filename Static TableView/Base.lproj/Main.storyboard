@@ -31,8 +31,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="Home" id="K1R-6b-YSE">
-                                                    <rect key="frame" x="20" y="9.5" width="24" height="24"/>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="house" catalog="system" id="K1R-6b-YSE">
+                                                    <rect key="frame" x="20.75" y="11" width="22.5" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -105,7 +105,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Others" id="I8J-kf-BEo">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="8De-rR-Fum" imageView="HQ9-YU-rUi" style="IBUITableViewCellStyleDefault" id="tLM-et-iEj">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="8De-rR-Fum" imageView="gIq-2H-1Cb" style="IBUITableViewCellStyleDefault" id="tLM-et-iEj">
                                         <rect key="frame" x="0.0" y="258" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tLM-et-iEj" id="s0c-IW-Xgt">
@@ -119,14 +119,14 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="person.circle.fill" catalog="system" id="HQ9-YU-rUi">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="person.circle" catalog="system" id="gIq-2H-1Cb">
                                                     <rect key="frame" x="22" y="12" width="20" height="19"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="aTu-h9-Cmv" style="IBUITableViewCellStyleDefault" id="DJ4-j7-mjy">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="aTu-h9-Cmv" imageView="z0U-eH-6v9" style="IBUITableViewCellStyleDefault" id="DJ4-j7-mjy">
                                         <rect key="frame" x="0.0" y="301.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DJ4-j7-mjy" id="Be8-Sy-9ym">
@@ -134,12 +134,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aTu-h9-Cmv">
-                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <rect key="frame" x="59" y="0.0" width="335" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="info" catalog="system" id="z0U-eH-6v9">
+                                                    <rect key="frame" x="26.5" y="13.5" width="11" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -221,11 +225,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Home" width="24" height="24"/>
         <image name="calendar.badge.plus" catalog="system" width="64" height="50"/>
+        <image name="house" catalog="system" width="64" height="54"/>
+        <image name="info" catalog="system" width="46" height="64"/>
         <image name="person.2" catalog="system" width="64" height="40"/>
         <image name="person.badge.plus.fill" catalog="system" width="64" height="58"/>
-        <image name="person.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="person.circle" catalog="system" width="64" height="60"/>
         <image name="phone" catalog="system" width="64" height="56"/>
         <image name="questionmark" catalog="system" width="48" height="64"/>
         <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
